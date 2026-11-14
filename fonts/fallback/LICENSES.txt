@@ -1,0 +1,17 @@
+Fallback fonts for the web version of Thara
+============================================
+
+These files are the fonts Flutter's web engine asks for when the app's own
+typefaces lack a letter. They are kept beside the page so that it fetches
+nothing from any other site. They are unchanged copies from Google Fonts.
+
+roboto/                 Roboto. Copyright Google LLC.
+                        Apache License, Version 2.0
+                        https://www.apache.org/licenses/LICENSE-2.0
+
+notosans/               Noto Sans, Noto Sans Arabic, Noto Sans Symbols,
+notosansarabic/         Noto Sans Symbols 2, Noto Sans Math, Noto Color Emoji.
+notosanssymbols/        Copyright The Noto Project Authors
+notosanssymbols2/       (https://github.com/notofonts).
+notosansmath/           SIL Open Font License, Version 1.1
+notocoloremoji/         https://openfontlicense.org

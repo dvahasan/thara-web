@@ -1,0 +1,1940 @@
+{
+ "version": "2026-10-28",
+ "language": "en",
+ "egypt": [
+  {
+   "id": "banking_saving_and_consumer_rights",
+   "title": "Banking, saving and consumer rights",
+   "body": [
+    "For bank accounts, deposits, payments and banking complaints, begin with the Central Bank of Egypt (CBE). Check the bank's status, account terms, minimum balance, fees, access, maturity and early-redemption provisions. Compare savings accounts and deposits using their net economics and the cash you can actually access. A quoted annual rate may involve a different payment frequency, tier, term or renewal condition.",
+    "Do not assume that US FDIC limits or any foreign deposit-guarantee scheme protects an Egyptian account. Verify whatever protection applies to the specific institution and account, and distinguish deposit protection from protection against fraud or investment losses. For complaints, preserve a written record and follow the bank's and CBE's current process; this library does not assert a fixed escalation deadline."
+   ],
+   "sources": [
+    "R022",
+    "R024",
+    "R019"
+   ]
+  },
+  {
+   "id": "securities_funds_gold_and_non_bank_finance",
+   "title": "Securities, funds, gold and non-bank finance",
+   "body": [
+    "For securities intermediaries, investment funds and relevant non-bank financial services, use the Financial Regulatory Authority (FRA) and the appropriate market or registry. Verify the manager, distributor, broker and custodian separately where relevant. Read the prospectus, mandate, fees, valuation, dealing schedule, settlement and redemption restrictions. A regulated provider can offer products with substantial market risk.",
+    "FRA material distinguishes regulation of gold investment-fund certificates from direct gold trading. Do not infer that any gold merchant, app or physical-gold arrangement is regulated by the FRA merely because gold funds are. Physical gold, a gold fund and jewellery have different custody, spreads, fees and resale economics. Gold has price risk and does not inherently generate cash income. An official news headline describing an investment as low risk is not a guarantee of safety."
+   ],
+   "sources": [
+    "R131",
+    "R127",
+    "R132"
+   ]
+  },
+  {
+   "id": "taxes_freelancing_and_business_activity",
+   "title": "Taxes, freelancing and business activity",
+   "body": [
+    "Use the Egyptian Tax Authority (ETA) to establish registration, filing, invoicing and tax obligations applicable to your activity. Employment income, freelance receipts, business profit, rent, interest, dividends, securities gains and foreign-source income may require different treatment. The legal form of the investor, residence, asset and transaction date can change the result. Avoid applying a single tax percentage to all financial income.",
+    "ETA publications address e-commerce and content-creation activity; earning through a foreign platform does not by itself establish exemption. Retain invoices, cost records, withholding documents, statements and FX conversion evidence. Get current guidance on any VAT, e-invoicing, e-receipt or other requirements that actually apply to your activity and size; this guide does not claim they apply identically to everyone.",
+    "For incorporation and investment services, consult GAFI and the relevant activity regulator. For commercial registration, consult ITDA and the competent registry. Incorporation, tax registration, commercial registration and permission to conduct a regulated activity are distinct checks. A company certificate alone does not authorize every activity, and limited liability can be affected by guarantees and other obligations."
+   ],
+   "sources": [
+    "R091",
+    "R093",
+    "R496",
+    "R202",
+    "R327",
+    "R142"
+   ]
+  },
+  {
+   "id": "currency_cross_border_investing_and_speculative_products",
+   "title": "Currency, cross-border investing and speculative products",
+   "body": [
+    "If you earn and spend mainly in EGP, measure goals in EGP purchasing power. Separately identify obligations genuinely denominated in another currency. Foreign-asset diversification and currency speculation are different activities. Before funding an overseas account, verify eligibility, bank transfer procedures, source-of-funds documents, FX rules, taxes, reporting and the provider's ability to serve Egyptian residents. Account-opening access does not establish that the proposed funding or tax treatment is lawful.",
+    "CBE banking legislation is a starting point for relevant restrictions, including sensitive digital-asset activity. This library does not establish an available lawful retail cryptocurrency or leveraged-forex route in Egypt. Do not treat offshore availability as local permission. These products are unnecessary for implementing the central saving, earning, diversification and protection principles in this library."
+   ],
+   "sources": [
+    "R019",
+    "R130"
+   ]
+  },
+  {
+   "id": "pensions_insurance_family_ownership_and_islamic_preferences",
+   "title": "Pensions, insurance, family ownership and Islamic preferences",
+   "body": [
+    "Check social-insurance records and applicable rights with NOSI. Verify insured service, contribution history, dependants, eligibility and current procedures rather than assuming foreign retirement rules. Where private pension or insurance arrangements are relevant, verify the scheme or provider and its oversight with the appropriate authority, including the FRA where applicable. Compare benefits, exclusions, surrender terms and charges.",
+    "For inheritance, incapacity, jointly held assets and property, use qualified local advice and valid Egyptian documentation. Do not assume that an overseas will, trust, survivorship designation or account nomination overrides Egyptian succession rules. For property, establish title, registration, permitted use, obligations, financing and ownership eligibility before paying.",
+    "For a preference for Islamic finance, assess the specific contract, screening, supervision, costs and rights. FRA materials cover Islamic non-bank products and sukuk. A Sharia label does not remove default, market, liquidity or counterparty risk, and religious opinions and regulatory authorization answer different questions."
+   ],
+   "sources": [
+    "R488",
+    "R489",
+    "R134",
+    "R136"
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "id": "emergency_reserves",
+   "title": "Emergency reserves",
+   "body": [
+    "An emergency reserve is money set aside for urgent, unplanned costs or an interruption to income. Its purpose is to help you avoid expensive borrowing or selling investments during a downturn. Start with an achievable buffer, then size it against essential expenses, income stability, dependants and available protection. Keep it accessible and distinguish it from savings for predictable bills. A three-to-six-month target is a starting heuristic, not a requirement for every household."
+   ],
+   "sources": [
+    "R032"
+   ],
+   "plan": "emergency_fund"
+  },
+  {
+   "id": "budgeting",
+   "title": "Budgeting",
+   "body": [
+    "A budget connects income with essential bills, debt payments, planned saving and discretionary spending. Record both the amounts and payment dates: an apparently balanced month can still contain a cash shortage before payday. Include annual expenses and use a conservative income estimate if earnings fluctuate. Compare actual spending with the plan and adjust it when prices or circumstances change. A useful budget is sustainable and leaves room for necessary living costs."
+   ],
+   "sources": [
+    "R035",
+    "R350"
+   ],
+   "plan": "budget_50_30_20"
+  },
+  {
+   "id": "debt_reduction",
+   "title": "Debt reduction",
+   "body": [
+    "List each debt's balance, effective cost, minimum payment, due date and consequences of default. Cover required payments and urgent priority obligations, then consider extra repayment. Paying the highest-cost debt first generally minimizes interest under comparable terms; clearing smaller balances first can help motivation but may cost more. Check prepayment charges, preserve necessary liquidity and compare the total cost before refinancing. A smaller monthly instalment can mean a longer and more expensive loan."
+   ],
+   "sources": [
+    "R055",
+    "R424"
+   ],
+   "plan": "debt_payoff"
+  },
+  {
+   "id": "diversification",
+   "title": "Diversification",
+   "body": [
+    "Diversification spreads exposure across holdings and, where suitable and legally accessible, asset classes, sectors and markets. It reduces dependence on one company's success or one property's value. Owning several funds is not enough if they hold substantially the same assets. Assess your household's business, employment and property exposures alongside investments. Diversification reduces some concentration risks but does not prevent broad market losses or guarantee positive returns."
+   ],
+   "sources": [
+    "R213",
+    "R439"
+   ],
+   "plan": null
+  },
+  {
+   "id": "inflation",
+   "title": "Inflation",
+   "body": [
+    "Inflation means prices rise and a given amount of money buys less. Evaluate savings and investments by purchasing power after relevant costs and taxes, rather than account growth alone. The exact real-return calculation is (1 + net nominal return) / (1 + inflation) - 1. Your own expenses may rise differently from a published price index. For an Egyptian household, revisit EGP spending targets and separately identify obligations genuinely denominated in another currency."
+   ],
+   "sources": [
+    "R161"
+   ],
+   "plan": null
+  },
+  {
+   "id": "compound_growth",
+   "title": "Compound growth",
+   "body": [
+    "Compound growth occurs when retained earnings generate further earnings. For example, a hypothetical EGP 10,000 earning a constant 5% each year, with earnings reinvested and no costs or taxes, becomes EGP 11,025 after two years. This demonstrates arithmetic, not an available rate or promised investment result. Regular contributions and time support accumulation, while losses, charges and taxes reduce it. Investment growth fluctuates; a constant-rate model cannot represent every market path."
+   ],
+   "sources": [
+    "R053"
+   ],
+   "plan": "dca_investment"
+  },
+  {
+   "id": "savings_accounts",
+   "title": "Savings accounts",
+   "body": [
+    "A savings account can hold accessible reserves and money for near-term goals, subject to its actual withdrawal terms. Compare the bank's authorization, fees, minimum balances, interest or profit-calculation method, payment frequency and access restrictions. Separate the advertised rate from what your expected balance would earn after charges. Check local protection arrangements and inflation exposure. An Egyptian account does not acquire foreign deposit-insurance coverage because a foreign educational source describes that scheme."
+   ],
+   "sources": [
+    "R472",
+    "R022"
+   ],
+   "plan": "savings_goal"
+  },
+  {
+   "id": "bonds",
+   "title": "Bonds",
+   "body": [
+    "A bond is a debt claim on an issuer, commonly with specified payments and a maturity date. Its risks include default, inflation, currency mismatch, limited liquidity and changes in interest rates. Prices of existing fixed-rate bonds generally fall when comparable market yields rise; longer duration usually means greater sensitivity. Holding an individual bond to maturity does not remove default or purchasing-power risk. A bond fund's investor does not have the same fixed redemption date as an individual bondholder."
+   ],
+   "sources": [
+    "R314",
+    "R534"
+   ],
+   "plan": null
+  },
+  {
+   "id": "diversified_funds",
+   "title": "Diversified funds",
+   "body": [
+    "A diversified fund pools investors' money across a range of holdings. A broad fund can make diversification easier than buying many individual securities, but a narrow sector fund or overlapping set of funds may remain concentrated. Read the mandate, underlying holdings, asset and currency exposures, ongoing charges, custody and redemption conditions. Index tracking does not itself guarantee broad diversification or low risk. For Egypt, verify that both the product and the proposed route to buy it are permitted."
+   ],
+   "sources": [
+    "R276",
+    "R250",
+    "R439"
+   ],
+   "plan": "dca_investment"
+  },
+  {
+   "id": "retirement_planning",
+   "title": "Retirement planning",
+   "body": [
+    "Estimate future living costs, healthcare needs, dependants and the length of time your resources may need to last. Compare these needs with verified pension entitlements and other reliable income, then plan contributions and suitable investments for the gap. Consider inflation, longevity and the effect of market losses while withdrawing money. Review the plan as life changes. Foreign retirement-account tax relief, benefit ages and withdrawal rules cannot be assumed to apply in Egypt; verify local social-insurance records with NOSI."
+   ],
+   "sources": [
+    "R397",
+    "R448",
+    "R488"
+   ],
+   "plan": "financial_independence"
+  },
+  {
+   "id": "rental_income",
+   "title": "Rental income",
+   "body": [
+    "Rent is gross revenue, not automatically spendable profit. Allow for vacancy, unpaid rent, repairs, maintenance, management, insurance, applicable taxes and other ownership costs. For a financed property, also assess debt service: principal repayment consumes cash even though it builds equity. Estimate both net operating income and cash left after financing. Property can concentrate a household's wealth and be difficult to sell quickly. In Egypt or elsewhere, verify title, permitted use, tenancy obligations and tax treatment before committing money."
+   ],
+   "sources": [
+    "R462"
+   ],
+   "plan": null
+  },
+  {
+   "id": "dividends",
+   "title": "Dividends",
+   "body": [
+    "Dividends are distributions a company makes to shareholders; payment depends on the company's decisions, finances and applicable rules. They can provide income, but may be reduced or stopped. A high dividend yield can reflect a falling share price or an unsustainable payout. Judge the investment by total return—distributions plus price changes—after costs and taxes. Reinvesting dividends can support compounding, while concentrating only on high-yield shares can increase risk. Confirm the relevant local withholding and reporting treatment."
+   ],
+   "sources": [
+    "R228",
+    "R175"
+   ],
+   "plan": null
+  },
+  {
+   "id": "financial_risks_of_starting_a_side_business",
+   "title": "Financial risks of starting a side business",
+   "body": [
+    "A side business can increase earning potential, but can also lose the money invested and create obligations beyond the original budget. Startup purchases, advertising and inventory may never be recovered. Sales may be below expectations; customers may pay late; refunds, supplier costs and platform fees can consume margins. A business can report a profit yet run out of cash before receivables are collected. Debt payments, personal guarantees, uninsured claims and continuing contracts can extend losses into household finances.",
+    "Protect the household by testing demand on a small scale, setting a maximum affordable loss, separating business records and money, and forecasting cash needs. Include the value of your time and any effect on your main job when evaluating the return. Keep emergency reserves available for their intended purpose. Establish review dates and a stop-or-change rule if sales, margins or cash needs depart materially from the plan. Verify employment-contract restrictions, registrations, permits and taxes; operating part-time or online does not by itself establish exemption."
+   ],
+   "sources": [
+    "R333",
+    "R337",
+    "R334",
+    "R338",
+    "R339",
+    "R496"
+   ],
+   "plan": null
+  }
+ ],
+ "groups": [
+  {
+   "id": "foundations",
+   "title": "Financial foundations and measurement",
+   "concepts": [
+    {
+     "id": "C001",
+     "name": "Net worth",
+     "principle": "Measure assets minus liabilities to see what you own after debts.",
+     "action": "Create a dated balance sheet and update it quarterly.",
+     "limit": "Use realistic resale values; separate illiquid property from available cash.",
+     "sources": [
+      "R049"
+     ]
+    },
+    {
+     "id": "C002",
+     "name": "Positive cash flow",
+     "principle": "A recurring surplus creates money for debt reduction, reserves and investing.",
+     "action": "Track take-home income and actual expenses for one month.",
+     "limit": "A higher income does not build wealth if spending rises equally.",
+     "sources": [
+      "R169"
+     ]
+    },
+    {
+     "id": "C003",
+     "name": "Goal-based planning",
+     "principle": "Give each goal an amount, deadline and currency so you can choose suitable saving methods.",
+     "action": "Write separate targets for emergencies, housing, education and retirement.",
+     "limit": "Reprice goals when inflation, family needs or exchange rates change.",
+     "sources": [
+      "R399"
+     ]
+    },
+    {
+     "id": "C004",
+     "name": "Needs and discretionary spending",
+     "principle": "Separating essentials from optional spending reveals where adjustments are feasible.",
+     "action": "Identify your minimum monthly living cost before choosing a saving target.",
+     "limit": "Essential spending differs by household; avoid cutting necessary care or insurance.",
+     "sources": [
+      "R362"
+     ]
+    },
+    {
+     "id": "C005",
+     "name": "Cash-flow budgeting",
+     "principle": "The timing of receipts and bills matters as well as monthly totals.",
+     "action": "Place payday, rent, debt payments and transfers on a calendar.",
+     "limit": "A monthly surplus can still hide a mid-month cash shortage.",
+     "sources": [
+      "R035"
+     ]
+    },
+    {
+     "id": "C006",
+     "name": "Irregular-income budgeting",
+     "principle": "A conservative income baseline reduces dependence on unusually strong months.",
+     "action": "Build essential spending around reliable income and reserve surplus from good months.",
+     "limit": "Do not assume commissions or freelance invoices will arrive on time.",
+     "sources": [
+      "R350"
+     ]
+    },
+    {
+     "id": "C007",
+     "name": "Savings rate",
+     "principle": "The share of income retained for future needs is a controllable driver of accumulation.",
+     "action": "Set an affordable target and review it after changes in income.",
+     "limit": "Distinguish new savings from market gains and transfers between your own accounts.",
+     "sources": [
+      "R434"
+     ]
+    },
+    {
+     "id": "C008",
+     "name": "Realistic forecasting",
+     "principle": "Plans should work across several plausible outcomes rather than one expected return.",
+     "action": "Model low, middle and high return scenarios, including lower income.",
+     "limit": "Illustrations are assumptions, not forecasts or guarantees.",
+     "sources": [
+      "R425"
+     ]
+    },
+    {
+     "id": "C009",
+     "name": "Financial recordkeeping",
+     "principle": "Accessible statements and contracts help measure performance and resolve disputes.",
+     "action": "Store dated statements, receipts, tax records and ownership documents securely.",
+     "limit": "Retention periods, privacy rules and evidentiary requirements differ locally.",
+     "sources": [
+      "R168"
+     ]
+    },
+    {
+     "id": "C010",
+     "name": "Regular financial reviews",
+     "principle": "Scheduled reviews help catch drift, costs and changing priorities.",
+     "action": "Review the budget monthly and the full plan annually or after a life event.",
+     "limit": "Reviewing does not require frequent trading.",
+     "sources": [
+      "R476"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "saving",
+   "title": "Saving habits and financial resilience",
+   "concepts": [
+    {
+     "id": "C011",
+     "name": "Pay yourself first",
+     "principle": "Reserving part of income before discretionary spending makes saving more consistent.",
+     "action": "Transfer an affordable amount on payday.",
+     "limit": "Cover essential bills and avoid overdrafts caused by automation.",
+     "sources": [
+      "R063"
+     ]
+    },
+    {
+     "id": "C012",
+     "name": "Automatic saving",
+     "principle": "A recurring transfer reduces reliance on remembering each contribution.",
+     "action": "Use a bank standing instruction where available and check it periodically.",
+     "limit": "Variable income may require a smaller transfer or manual adjustment.",
+     "sources": [
+      "R063"
+     ]
+    },
+    {
+     "id": "C013",
+     "name": "Emergency reserves",
+     "principle": "Accessible savings reduce the need to borrow or sell investments after a shock.",
+     "action": "Start with a small buffer, then build toward a household-specific expense target.",
+     "limit": "Three to six months is a planning heuristic, not a universal requirement.",
+     "sources": [
+      "R032"
+     ]
+    },
+    {
+     "id": "C014",
+     "name": "Sinking funds",
+     "principle": "Expected irregular expenses deserve their own planned savings.",
+     "action": "Save monthly for maintenance, school fees, annual premiums and renewals.",
+     "limit": "These are expected expenses, separate from emergencies.",
+     "sources": [
+      "R361"
+     ]
+    },
+    {
+     "id": "C015",
+     "name": "Liquidity matching",
+     "principle": "Money needed soon should be available without a forced sale at a bad time.",
+     "action": "Keep near-term obligations in suitable accessible instruments.",
+     "limit": "Accessibility, redemption times, penalties and issuer risk must be checked.",
+     "sources": [
+      "R270"
+     ]
+    },
+    {
+     "id": "C016",
+     "name": "Bank-account comparison",
+     "principle": "Fees, access and withdrawal terms can matter as much as headline interest.",
+     "action": "Compare the total account cost against your expected balances and transactions.",
+     "limit": "Eligibility and protection arrangements depend on the country and institution.",
+     "sources": [
+      "R472"
+     ]
+    },
+    {
+     "id": "C017",
+     "name": "Term-deposit ladders",
+     "principle": "Staggered maturities can spread reinvestment dates and release cash periodically.",
+     "action": "If suitable, divide a deposit across several maturity dates.",
+     "limit": "Early-withdrawal penalties and minimum balances can erase the advantage.",
+     "sources": [
+      "R480"
+     ]
+    },
+    {
+     "id": "C018",
+     "name": "Deposit protection awareness",
+     "principle": "Understand which deposits and institutions fall within the applicable protection scheme.",
+     "action": "Ask the regulator and bank about coverage, exclusions and claim procedures.",
+     "limit": "Foreign insurance limits cannot be assumed to apply in Egypt.",
+     "sources": [
+      "R089"
+     ]
+    },
+    {
+     "id": "C019",
+     "name": "Saving windfalls",
+     "principle": "A decision rule for irregular money can improve consistency.",
+     "action": "Before spending a bonus or inheritance, allocate it among reserves, debts and goals.",
+     "limit": "Check ownership rights and taxes before committing inherited or gifted assets.",
+     "sources": [
+      "R553"
+     ]
+    },
+    {
+     "id": "C020",
+     "name": "Lifestyle-inflation control",
+     "principle": "Keeping some income growth creates room for future wealth.",
+     "action": "Direct part of each pay rise toward saving or debt reduction.",
+     "limit": "Allow for higher essential costs; do not impose an arbitrary fixed percentage.",
+     "sources": [
+      "R475"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "debt",
+   "title": "Debt and borrowing discipline",
+   "concepts": [
+    {
+     "id": "C021",
+     "name": "Debt inventory",
+     "principle": "Knowing every balance, rate, fee and due date makes repayment choices clearer.",
+     "action": "List all formal and informal debts and identify collateral and guarantees.",
+     "limit": "Family borrowing can carry relationship and legal obligations too.",
+     "sources": [
+      "R055"
+     ]
+    },
+    {
+     "id": "C022",
+     "name": "Debt avalanche",
+     "principle": "After required payments, directing extra money to the costliest debt generally reduces interest cost.",
+     "action": "Compare effective costs and pay the highest-cost balance faster.",
+     "limit": "Priority obligations, penalties and safety needs may come first.",
+     "sources": [
+      "R055"
+     ]
+    },
+    {
+     "id": "C023",
+     "name": "Debt snowball",
+     "principle": "Clearing smaller balances can create motivation to continue repayment.",
+     "action": "Use it if the behavioural benefit helps you follow through.",
+     "limit": "It may cost more interest than paying the highest-rate debt first.",
+     "sources": [
+      "R055"
+     ]
+    },
+    {
+     "id": "C024",
+     "name": "Total borrowing cost",
+     "principle": "A low monthly payment can hide a long and expensive loan.",
+     "action": "Compare principal, interest, fees, mandatory insurance and total repayment.",
+     "limit": "APR definitions and required disclosures vary by jurisdiction.",
+     "sources": [
+      "R073"
+     ]
+    },
+    {
+     "id": "C025",
+     "name": "Repayment affordability",
+     "principle": "Debt should remain manageable after essential spending and plausible shocks.",
+     "action": "Test payments against lower income and higher living costs.",
+     "limit": "Approval by a lender does not prove affordability for your household.",
+     "sources": [
+      "R054"
+     ]
+    },
+    {
+     "id": "C026",
+     "name": "Fixed and variable rate risk",
+     "principle": "A variable rate can change future payments and refinancing needs.",
+     "action": "Stress-test a meaningful rate increase before borrowing.",
+     "limit": "Fixed-rate contracts may have prepayment charges or reset clauses.",
+     "sources": [
+      "R372"
+     ]
+    },
+    {
+     "id": "C027",
+     "name": "Refinancing break-even",
+     "principle": "Refinancing helps only if the savings outweigh all switching costs.",
+     "action": "Calculate switching costs divided by the monthly saving.",
+     "limit": "A longer loan can lower payments while increasing lifetime cost.",
+     "sources": [
+      "R424"
+     ]
+    },
+    {
+     "id": "C028",
+     "name": "Early-repayment economics",
+     "principle": "Repaying debt produces a benefit through avoided future costs.",
+     "action": "Compare avoided interest and fees with penalties and the value of liquidity.",
+     "limit": "Keep an emergency buffer and check how prepayments are applied.",
+     "sources": [
+      "R036"
+     ]
+    },
+    {
+     "id": "C029",
+     "name": "Collateral and guarantee risk",
+     "principle": "Secured loans and personal guarantees expose specified assets or personal wealth.",
+     "action": "Read default, repossession and guarantee provisions before signing.",
+     "limit": "Limited-liability businesses do not remove an owner's personal guarantee.",
+     "sources": [
+      "R429"
+     ]
+    },
+    {
+     "id": "C030",
+     "name": "Early hardship action",
+     "principle": "Contacting creditors early may preserve options when payments become difficult.",
+     "action": "Ask for available arrangements and obtain written terms.",
+     "limit": "Restructuring, insolvency and collection rights depend on local law.",
+     "sources": [
+      "R427"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "title": "Investment principles and portfolio construction",
+   "concepts": [
+    {
+     "id": "C031",
+     "name": "Compounding",
+     "principle": "Reinvested earnings can generate further earnings over time.",
+     "action": "Start with an affordable amount and allow time for accumulation.",
+     "limit": "Losses, fees and taxes compound too; investment returns fluctuate.",
+     "sources": [
+      "R053"
+     ]
+    },
+    {
+     "id": "C032",
+     "name": "Time horizon",
+     "principle": "A goal's deadline affects how much investment uncertainty is tolerable.",
+     "action": "Assign an investment horizon to each goal.",
+     "limit": "A long horizon does not make every investment appropriate.",
+     "sources": [
+      "R308"
+     ]
+    },
+    {
+     "id": "C033",
+     "name": "Risk capacity and tolerance",
+     "principle": "Financial ability to withstand a loss differs from emotional comfort with it.",
+     "action": "Assess income security, obligations and likely response to losses.",
+     "limit": "Use the more restrictive constraint when designing the plan.",
+     "sources": [
+      "R243"
+     ]
+    },
+    {
+     "id": "C034",
+     "name": "Risk and expected return",
+     "principle": "Higher potential reward generally involves accepting greater uncertainty.",
+     "action": "Identify what risk you are being paid to bear.",
+     "limit": "Taking more risk does not guarantee more return.",
+     "sources": [
+      "R099"
+     ]
+    },
+    {
+     "id": "C035",
+     "name": "Asset allocation",
+     "principle": "The mix of asset classes strongly shapes portfolio behaviour.",
+     "action": "Choose a mix that fits goals, liquidity and capacity for loss.",
+     "limit": "A standard foreign portfolio is not automatically suitable locally.",
+     "sources": [
+      "R213"
+     ]
+    },
+    {
+     "id": "C036",
+     "name": "Diversification across holdings",
+     "principle": "Spreading exposure reduces reliance on a single issuer or investment.",
+     "action": "Avoid making one company or property the entire financial plan.",
+     "limit": "Diversification cannot remove broad market losses.",
+     "sources": [
+      "R213"
+     ]
+    },
+    {
+     "id": "C037",
+     "name": "Diversification within funds",
+     "principle": "Several fund names do not necessarily mean different economic exposures.",
+     "action": "Compare underlying holdings, sectors, countries and currencies.",
+     "limit": "A concentrated fund may remain concentrated despite holding many securities.",
+     "sources": [
+      "R439"
+     ]
+    },
+    {
+     "id": "C038",
+     "name": "Periodic rebalancing",
+     "principle": "Market movements can change the risk of an initially suitable allocation.",
+     "action": "Review on a schedule or after a predefined allocation drift.",
+     "limit": "Consider taxes and transaction costs before trading.",
+     "sources": [
+      "R268"
+     ]
+    },
+    {
+     "id": "C039",
+     "name": "Regular investing",
+     "principle": "Scheduled contributions can support discipline and spread purchase dates.",
+     "action": "Contribute from recurring income to a suitable diversified plan.",
+     "limit": "Dollar-cost averaging does not guarantee profit or prevent loss.",
+     "sources": [
+      "R229"
+     ]
+    },
+    {
+     "id": "C040",
+     "name": "Investment policy statement",
+     "principle": "Written rules help connect investment decisions to goals and constraints.",
+     "action": "Document the target mix, contribution plan, limits and review triggers.",
+     "limit": "Change the policy for changed circumstances, not every market headline.",
+     "sources": [
+      "R172"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "products",
+   "title": "Investment products and due diligence",
+   "concepts": [
+    {
+     "id": "C041",
+     "name": "Equity ownership",
+     "principle": "Shares represent an interest in a business rather than a promised return.",
+     "action": "Understand earnings, debt and business risks before buying.",
+     "limit": "A share price can fall substantially and dividends can stop.",
+     "sources": [
+      "R304"
+     ]
+    },
+    {
+     "id": "C042",
+     "name": "Total return",
+     "principle": "Investment results include income and price changes together.",
+     "action": "Compare investments using distributions plus value change after costs.",
+     "limit": "A high dividend or coupon alone does not show superior performance.",
+     "sources": [
+      "R175"
+     ]
+    },
+    {
+     "id": "C043",
+     "name": "Bond credit risk",
+     "principle": "A bond depends on the issuer's ability and willingness to pay.",
+     "action": "Review issuer quality, currency, maturity and seniority.",
+     "limit": "Government and corporate obligations are not equally safe everywhere.",
+     "sources": [
+      "R314"
+     ]
+    },
+    {
+     "id": "C044",
+     "name": "Bond duration",
+     "principle": "Longer-duration fixed-income assets are generally more sensitive to yield changes.",
+     "action": "Match interest-rate exposure to the purpose and horizon of the money.",
+     "limit": "A bond fund can lose value even when its underlying bonds pay coupons.",
+     "sources": [
+      "R534"
+     ]
+    },
+    {
+     "id": "C045",
+     "name": "Funds as pooled ownership",
+     "principle": "A fund can provide access to multiple assets through one holding.",
+     "action": "Read the mandate, holdings, valuation process and redemption terms.",
+     "limit": "A fund label does not guarantee diversification or liquidity.",
+     "sources": [
+      "R276"
+     ]
+    },
+    {
+     "id": "C046",
+     "name": "Index investing",
+     "principle": "An index fund follows a specified benchmark rather than selecting all holdings discretionarily.",
+     "action": "Check the index, concentration, tracking record and costs.",
+     "limit": "Not every index is broad, low risk or inexpensive.",
+     "sources": [
+      "R250"
+     ]
+    },
+    {
+     "id": "C047",
+     "name": "ETF trading costs",
+     "principle": "An ETF has trading features in addition to the costs of its underlying portfolio.",
+     "action": "Check spread, liquidity and premium or discount to asset value.",
+     "limit": "Market price may differ from net asset value.",
+     "sources": [
+      "R233"
+     ]
+    },
+    {
+     "id": "C048",
+     "name": "Money-market-fund limitations",
+     "principle": "Money-market funds hold short-term instruments but remain investments.",
+     "action": "Read credit exposures, redemption rules and valuation provisions.",
+     "limit": "Do not assume they carry the same guarantees as bank deposits.",
+     "sources": [
+      "R273"
+     ]
+    },
+    {
+     "id": "C049",
+     "name": "Property investment economics",
+     "principle": "Net rental results depend on all costs, not just rent received.",
+     "action": "Budget for vacancy, maintenance, taxes, management and selling costs.",
+     "limit": "Property is concentrated, illiquid and subject to title and tenancy law.",
+     "sources": [
+      "R462"
+     ]
+    },
+    {
+     "id": "C050",
+     "name": "REIT structure",
+     "principle": "Property funds can offer exposure without directly buying a whole building.",
+     "action": "Distinguish listed and unlisted structures, leverage and redemption terms.",
+     "limit": "Non-traded structures can have high fees and limited exits.",
+     "sources": [
+      "R263"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "costs",
+   "title": "Costs, inflation and currency",
+   "concepts": [
+    {
+     "id": "C051",
+     "name": "Fee drag",
+     "principle": "Ongoing charges reduce both current returns and the capital earning future returns.",
+     "action": "Calculate all annual, transaction and exit costs.",
+     "limit": "Small stated fees can accumulate materially over long periods.",
+     "sources": [
+      "R256"
+     ]
+    },
+    {
+     "id": "C052",
+     "name": "All-in product comparison",
+     "principle": "A cheap-looking product can charge in several different places.",
+     "action": "Compare custody, advisory, fund, spread, transfer and FX charges.",
+     "limit": "A zero-expense label does not prove the whole arrangement is free.",
+     "sources": [
+      "R278"
+     ]
+    },
+    {
+     "id": "C053",
+     "name": "Real returns",
+     "principle": "Purchasing power matters more than the nominal account balance.",
+     "action": "Estimate real return as (1 + net nominal return)/(1 + inflation) - 1.",
+     "limit": "Your personal spending basket may inflate differently from headline CPI.",
+     "sources": [
+      "R161"
+     ]
+    },
+    {
+     "id": "C054",
+     "name": "Currency matching",
+     "principle": "Holding money in the currency of a future obligation can reduce mismatch risk.",
+     "action": "Identify the currency of rent, education, imports and retirement spending.",
+     "limit": "Foreign currency creates risk when your future spending is domestic.",
+     "sources": [
+      "R251"
+     ]
+    },
+    {
+     "id": "C055",
+     "name": "Exchange-rate exposure",
+     "principle": "A foreign asset's local-currency result includes exchange-rate movement.",
+     "action": "Model asset returns and FX changes separately.",
+     "limit": "Foreign assets do not guarantee protection from local inflation.",
+     "sources": [
+      "R251"
+     ]
+    },
+    {
+     "id": "C056",
+     "name": "After-tax returns",
+     "principle": "Tax can change which investment delivers the better net result.",
+     "action": "Estimate relevant taxes and allowable costs before comparing products.",
+     "limit": "Treatment depends on residence, asset, account and current law.",
+     "sources": [
+      "R180"
+     ]
+    },
+    {
+     "id": "C057",
+     "name": "Turnover costs",
+     "principle": "Frequent changes can create trading costs, spreads and taxable events.",
+     "action": "Trade when justified by the plan, not because an app makes it easy.",
+     "limit": "Some transactions remain necessary to meet liquidity or risk needs.",
+     "sources": [
+      "R274"
+     ]
+    },
+    {
+     "id": "C058",
+     "name": "Reinvestment risk",
+     "principle": "Income and maturing principal may have to be reinvested at lower rates.",
+     "action": "Spread maturity dates and test lower future rates.",
+     "limit": "A high current deposit or bond rate may not persist.",
+     "sources": [
+      "R217"
+     ]
+    },
+    {
+     "id": "C059",
+     "name": "Sequence-of-returns risk",
+     "principle": "Losses during withdrawals can damage a portfolio more than the same losses during accumulation.",
+     "action": "Plan a liquidity reserve and a flexible withdrawal approach.",
+     "limit": "No fixed withdrawal percentage is safe in every market and country.",
+     "sources": [
+      "R448"
+     ]
+    },
+    {
+     "id": "C060",
+     "name": "Scenario stress testing",
+     "principle": "Plans are stronger when they acknowledge adverse combinations.",
+     "action": "Test job loss, inflation, FX shifts, medical costs and market declines.",
+     "limit": "Stress tests expose vulnerabilities; they do not predict events.",
+     "sources": [
+      "R425"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "behaviour",
+   "title": "Behaviour and decision quality",
+   "concepts": [
+    {
+     "id": "C061",
+     "name": "Loss-aversion awareness",
+     "principle": "Fear of realizing a loss can distort decisions about an unsuitable holding.",
+     "action": "Reassess the investment's future role rather than its purchase price.",
+     "limit": "Avoid selling simply to relieve temporary discomfort.",
+     "sources": [
+      "R184"
+     ]
+    },
+    {
+     "id": "C062",
+     "name": "Overconfidence control",
+     "principle": "Confidence in predictions can encourage oversized positions and excessive trading.",
+     "action": "Write down evidence, uncertainties and a maximum exposure.",
+     "limit": "A few successful trades do not demonstrate repeatable skill.",
+     "sources": [
+      "R163"
+     ]
+    },
+    {
+     "id": "C063",
+     "name": "Anchoring awareness",
+     "principle": "An arbitrary starting number can dominate an investment decision.",
+     "action": "Compare current fundamentals and alternatives independently of the entry price.",
+     "limit": "A past high price is not proof of fair value.",
+     "sources": [
+      "R145"
+     ]
+    },
+    {
+     "id": "C064",
+     "name": "Herding resistance",
+     "principle": "Popularity and social proof can substitute for analysis.",
+     "action": "Use a written decision checklist before following a trend.",
+     "limit": "Crowds can remain influential; avoiding them does not itself create an edge.",
+     "sources": [
+      "R535"
+     ]
+    },
+    {
+     "id": "C065",
+     "name": "Performance-chasing caution",
+     "principle": "Recent winners may already reflect optimistic expectations.",
+     "action": "Evaluate the process, risk and costs rather than only recent returns.",
+     "limit": "Past performance does not establish future results.",
+     "sources": [
+      "R135"
+     ]
+    },
+    {
+     "id": "C066",
+     "name": "Precommitment",
+     "principle": "Rules chosen calmly can reduce impulsive reactions under stress.",
+     "action": "Decide contribution, allocation and review rules in advance.",
+     "limit": "Allow an explicit exception process for real life changes.",
+     "sources": [
+      "R147"
+     ]
+    },
+    {
+     "id": "C067",
+     "name": "Cooling-off decisions",
+     "principle": "A deliberate pause can reveal missing information in a sales pitch.",
+     "action": "Delay a complex purchase until documents and risks are understood.",
+     "limit": "A self-imposed pause is different from a legal cancellation right.",
+     "sources": [
+      "R236"
+     ]
+    },
+    {
+     "id": "C068",
+     "name": "Source-quality assessment",
+     "principle": "A claim is stronger when supported by transparent evidence and independent checks.",
+     "action": "Check who authored it, incentives, dates and original documents.",
+     "limit": "Government publication does not make every product or forecast safe.",
+     "sources": [
+      "R149"
+     ]
+    },
+    {
+     "id": "C069",
+     "name": "Family money coordination",
+     "principle": "Shared expectations reduce conflicting commitments and surprise liabilities.",
+     "action": "Agree on bills, saving goals, borrowing and support obligations.",
+     "limit": "Preserve appropriate privacy and legal ownership rights.",
+     "sources": [
+      "R544"
+     ]
+    },
+    {
+     "id": "C070",
+     "name": "Financial learning habits",
+     "principle": "Improving financial understanding supports better use of products and advice.",
+     "action": "Study a topic when it becomes relevant and verify unfamiliar terms.",
+     "limit": "Education cannot remove market risk or replace necessary legal expertise.",
+     "sources": [
+      "R491"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "title": "Earning power and business ownership",
+   "concepts": [
+    {
+     "id": "C071",
+     "name": "Human-capital investment",
+     "principle": "Skills and employability can improve the income available for saving.",
+     "action": "Choose training with credible demand and a realistic cost-payback case.",
+     "limit": "Education has costs and uncertain results; avoid guaranteed-income claims.",
+     "sources": [
+      "R196"
+     ]
+    },
+    {
+     "id": "C072",
+     "name": "Demand validation",
+     "principle": "A business needs paying customers, not only a compelling idea.",
+     "action": "Test a small offer and record actual willingness to pay.",
+     "limit": "Interest, followers and survey enthusiasm are weaker evidence than purchases.",
+     "sources": [
+      "R338"
+     ]
+    },
+    {
+     "id": "C073",
+     "name": "Competitive analysis",
+     "principle": "Understanding alternatives clarifies why a customer would choose your offer.",
+     "action": "Compare price, quality, delivery and service against real competitors.",
+     "limit": "Do not confuse a large market with an attainable market share.",
+     "sources": [
+      "R338"
+     ]
+    },
+    {
+     "id": "C074",
+     "name": "Startup-cost planning",
+     "principle": "A business requires both launch spending and resources to operate.",
+     "action": "List one-off costs, recurring expenses and contingency funding.",
+     "limit": "Use current local quotes and licensing requirements.",
+     "sources": [
+      "R333"
+     ]
+    },
+    {
+     "id": "C075",
+     "name": "Unit economics",
+     "principle": "Revenue per sale must be considered against the costs of fulfilling that sale.",
+     "action": "Calculate contribution per product or service after variable costs.",
+     "limit": "Positive gross margin does not ensure profit after fixed costs.",
+     "sources": [
+      "R331"
+     ]
+    },
+    {
+     "id": "C076",
+     "name": "Break-even analysis",
+     "principle": "The sales volume needed to cover costs helps evaluate feasibility.",
+     "action": "Divide fixed costs by contribution per unit where that model fits.",
+     "limit": "Demand, prices and capacity may change as volume grows.",
+     "sources": [
+      "R331"
+     ]
+    },
+    {
+     "id": "C077",
+     "name": "Working-capital management",
+     "principle": "A profitable business can fail if customers pay after suppliers and staff need payment.",
+     "action": "Track receivables, inventory, payables and a rolling cash forecast.",
+     "limit": "Do not use customer or tax money as freely available profit.",
+     "sources": [
+      "R337"
+     ]
+    },
+    {
+     "id": "C078",
+     "name": "Separate business finances",
+     "principle": "Separating household and business transactions improves control and accounting.",
+     "action": "Use appropriate accounts, records and a defined owner-payment policy.",
+     "limit": "The account alone does not create legal limited liability.",
+     "sources": [
+      "R337"
+     ]
+    },
+    {
+     "id": "C079",
+     "name": "Funding choice",
+     "principle": "Debt, owner capital and external equity place different claims on future cash flows.",
+     "action": "Compare repayment, dilution, guarantees and control before accepting money.",
+     "limit": "Foreign government loan schemes do not transfer automatically to Egypt.",
+     "sources": [
+      "R334"
+     ]
+    },
+    {
+     "id": "C080",
+     "name": "Business planning and formalization",
+     "principle": "A documented operating plan helps connect demand, costs, funding and compliance.",
+     "action": "Prepare a concise plan and obtain required registrations and permits.",
+     "limit": "Informal activity can still create tax and licensing obligations.",
+     "sources": [
+      "R339"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "protection",
+   "title": "Protection, retirement and succession",
+   "concepts": [
+    {
+     "id": "C081",
+     "name": "Catastrophic-risk insurance",
+     "principle": "Insurance can transfer risks too large to absorb from ordinary savings.",
+     "action": "Assess exposures affecting health, dependants, home and earning ability.",
+     "limit": "Coverage, exclusions and claims reliability matter more than the label.",
+     "sources": [
+      "R390"
+     ]
+    },
+    {
+     "id": "C082",
+     "name": "Life-insurance needs",
+     "principle": "Dependants may need replacement income if an earner dies.",
+     "action": "Estimate obligations and subtract resources already available to survivors.",
+     "limit": "Avoid a fixed cover multiple that ignores family circumstances.",
+     "sources": [
+      "R380"
+     ]
+    },
+    {
+     "id": "C083",
+     "name": "Income protection",
+     "principle": "Disability or prolonged illness can interrupt earnings.",
+     "action": "Evaluate savings, employer benefits and suitable cover where available.",
+     "limit": "Definitions, waiting periods and exclusions vary substantially.",
+     "sources": [
+      "R436"
+     ]
+    },
+    {
+     "id": "C084",
+     "name": "Deductible and coverage choice",
+     "principle": "A lower premium may leave more loss with the policyholder.",
+     "action": "Choose an excess you could afford and inspect coverage limits.",
+     "limit": "Cheap cover can exclude the risks you most need protected.",
+     "sources": [
+      "R515"
+     ]
+    },
+    {
+     "id": "C085",
+     "name": "Retirement income gap",
+     "principle": "Retirement planning starts with spending needs and reliable income sources.",
+     "action": "Estimate expenses and compare them with verified pension entitlements.",
+     "limit": "Foreign pension ages and benefit formulas are not Egyptian rules.",
+     "sources": [
+      "R397"
+     ]
+    },
+    {
+     "id": "C086",
+     "name": "Longevity planning",
+     "principle": "Savings may need to support a long and uncertain retirement.",
+     "action": "Model longer life and healthcare needs as well as expected life.",
+     "limit": "Average life expectancy is not an individual spending deadline.",
+     "sources": [
+      "R485"
+     ]
+    },
+    {
+     "id": "C087",
+     "name": "Flexible retirement withdrawals",
+     "principle": "Adjusting withdrawals can help manage market and inflation uncertainty.",
+     "action": "Set review rules for discretionary spending and reserve replenishment.",
+     "limit": "Foreign withdrawal rules and tax models may not be available locally.",
+     "sources": [
+      "R448"
+     ]
+    },
+    {
+     "id": "C088",
+     "name": "Pension entitlement verification",
+     "principle": "Contribution records and scheme terms determine actual rights.",
+     "action": "Check insured periods, beneficiaries, eligibility and records with the relevant authority.",
+     "limit": "Do not assume employer statements alone establish a legal entitlement.",
+     "sources": [
+      "R488"
+     ]
+    },
+    {
+     "id": "C089",
+     "name": "Estate and incapacity planning",
+     "principle": "Ownership, inheritance and authority to act determine what happens when you cannot manage assets.",
+     "action": "Keep an asset register and obtain locally valid documents and professional advice.",
+     "limit": "Wills, powers of attorney, forced heirship and beneficiary designations vary.",
+     "sources": [
+      "R401"
+     ]
+    },
+    {
+     "id": "C090",
+     "name": "Tax and legal implementation",
+     "principle": "Wealth plans must fit residence, ownership and reporting requirements.",
+     "action": "Check current rules before opening accounts, transferring funds or realizing gains.",
+     "limit": "Lawful tax planning does not mean concealment or evasion.",
+     "sources": [
+      "R306"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fraud",
+   "title": "Fraud prevention and implementation safeguards",
+   "concepts": [
+    {
+     "id": "C091",
+     "name": "Licensed-provider verification",
+     "principle": "Check that the entity and the activity are actually authorized.",
+     "action": "Use the relevant regulator's register and independently obtained contact details.",
+     "limit": "Registration is not an endorsement or a guarantee against loss.",
+     "sources": [
+      "R212"
+     ]
+    },
+    {
+     "id": "C092",
+     "name": "Custody verification",
+     "principle": "Know who legally holds assets and where client money is kept.",
+     "action": "Read custody terms and compare independent statements where available.",
+     "limit": "An app balance is not conclusive evidence of legal ownership.",
+     "sources": [
+      "R259"
+     ]
+    },
+    {
+     "id": "C093",
+     "name": "Return-promise scepticism",
+     "principle": "Guaranteed high returns with little risk are a major warning sign.",
+     "action": "Ask what generates the return and independently verify the claim.",
+     "limit": "A signed contract does not make an implausible scheme safe.",
+     "sources": [
+      "R294"
+     ]
+    },
+    {
+     "id": "C094",
+     "name": "Ponzi-scheme awareness",
+     "principle": "Payments funded by new participants are not sustainable investment earnings.",
+     "action": "Reject arrangements relying on recruitment or unverifiable cash generation.",
+     "limit": "Early payouts can be used to create false trust.",
+     "sources": [
+      "R461"
+     ]
+    },
+    {
+     "id": "C095",
+     "name": "Impersonation checks",
+     "principle": "Fraudsters can copy a real firm's name, website or identity.",
+     "action": "Contact the firm using an independently verified channel before transferring money.",
+     "limit": "Documents and video calls can also be forged.",
+     "sources": [
+      "R527"
+     ]
+    },
+    {
+     "id": "C096",
+     "name": "Account security",
+     "principle": "Protecting access reduces the risk of unauthorized transactions.",
+     "action": "Use unique passwords, strong multifactor authentication and transaction alerts.",
+     "limit": "Never share one-time passwords or approve unexpected login requests.",
+     "sources": [
+      "R532"
+     ]
+    },
+    {
+     "id": "C097",
+     "name": "Payment-instruction verification",
+     "principle": "A changed bank account or urgent transfer request may be fraudulent.",
+     "action": "Confirm unusual instructions through a previously verified channel.",
+     "limit": "An email thread can be compromised even when it appears familiar.",
+     "sources": [
+      "R528"
+     ]
+    },
+    {
+     "id": "C098",
+     "name": "Digital and AI claim verification",
+     "principle": "Polished recommendations and synthetic media can mislead.",
+     "action": "Check facts, licensing and source documents outside the recommendation tool.",
+     "limit": "AI output and influencer content are not personalized fiduciary advice.",
+     "sources": [
+      "R404"
+     ]
+    },
+    {
+     "id": "C099",
+     "name": "Complaints and evidence",
+     "principle": "Prompt records and the right escalation route can help resolve misconduct.",
+     "action": "Preserve statements, messages and complaint references; follow regulator procedures.",
+     "limit": "Remedies, deadlines and recoverability differ by provider and country.",
+     "sources": [
+      "R024"
+     ]
+    },
+    {
+     "id": "C100",
+     "name": "Avoiding ruin through leverage",
+     "principle": "Borrowing to invest magnifies losses and can force liquidation.",
+     "action": "Understand margin calls and consider whether unleveraged exposure meets the goal.",
+     "limit": "Derivatives and leveraged speculation are not essential wealth-building steps.",
+     "sources": [
+      "R548"
+     ]
+    }
+   ]
+  }
+ ],
+ "calculations": [
+  {
+   "id": "net_worth",
+   "name": "Net worth",
+   "formula": "Realistic asset values − liabilities",
+   "limit": "Show liquid assets separately from property and private businesses."
+  },
+  {
+   "id": "monthly_surplus",
+   "name": "Monthly surplus",
+   "formula": "Cash income received − cash outgoings",
+   "limit": "Include debt service, taxes and irregular expenses; avoid double-counting transfers."
+  },
+  {
+   "id": "emergency_runway",
+   "name": "Emergency runway",
+   "formula": "Immediately available reserve ÷ essential monthly outgoings",
+   "limit": "A larger value gives more time; reserve assets must actually be accessible."
+  },
+  {
+   "id": "savings_rate",
+   "name": "Savings rate",
+   "formula": "New money saved from income ÷ the stated income measure",
+   "limit": "State whether income is gross or net and whether pension contributions are included."
+  },
+  {
+   "id": "compound_value",
+   "name": "Compound value",
+   "formula": "P × (1 + r)^n",
+   "limit": "Assumes a constant periodic net return; market returns are not constant."
+  },
+  {
+   "id": "regular_saving",
+   "name": "End-of-period regular saving",
+   "formula": "P(1 + r)^n + A × ((1 + r)^n − 1)/r",
+   "limit": "Assumes constant returns and contributions; when r = 0, use P + A × n."
+  },
+  {
+   "id": "real_return",
+   "name": "Real return",
+   "formula": "(1 + net nominal return)/(1 + inflation) − 1",
+   "limit": "Both rates must cover the same period."
+  },
+  {
+   "id": "foreign_return",
+   "name": "Foreign-asset return in home currency",
+   "formula": "(1 + foreign-asset return) × (ending FX/starting FX) − 1",
+   "limit": "FX is home-currency units per one foreign-currency unit; subtract costs and taxes separately."
+  },
+  {
+   "id": "rental_yield",
+   "name": "Net rental yield",
+   "formula": "Annual rent minus recurring property costs, divided by total acquisition cost",
+   "limit": "Include realistic vacancy; clarify whether financing and tax are included."
+  },
+  {
+   "id": "refinance_break_even",
+   "name": "Simple refinancing break-even",
+   "formula": "Total switching costs ÷ monthly net saving",
+   "limit": "Inadequate if rates, balances or loan terms differ materially; compare full cash flows then."
+  },
+  {
+   "id": "unit_contribution",
+   "name": "Business contribution per unit",
+   "formula": "Selling price − variable cost per unit",
+   "limit": "Distinguish contribution from net profit."
+  },
+  {
+   "id": "break_even_units",
+   "name": "Break-even sales units",
+   "formula": "Fixed costs ÷ positive contribution per unit",
+   "limit": "Valid only within the assumed pricing, capacity and cost structure."
+  }
+ ],
+ "illustration": "if an investment earns a hypothetical 18% net nominal return while your relevant prices rise 20%, the real return is 1.18 / 1.20 − 1 = approximately −1.67%. This is arithmetic, not a current Egyptian product rate or inflation forecast.",
+ "steps": [
+  {
+   "title": "Establish the baseline",
+   "body": "list assets, debts, essential spending, income reliability and near-term obligations. Gather records."
+  },
+  {
+   "title": "Stabilize cash flow",
+   "body": "cover essentials and required payments, build a starter buffer, and address urgent or costly debt. The right order depends on consequences of non-payment and household vulnerability."
+  },
+  {
+   "title": "Build resilience",
+   "body": "size reserves, plan expected irregular bills, and address catastrophic risks with available benefits, insurance or other suitable arrangements."
+  },
+  {
+   "title": "Grow earning capacity",
+   "body": "select evidence-based training or test a small business opportunity without putting essential household resources at excessive risk."
+  },
+  {
+   "title": "Write the investment plan",
+   "body": "define goals, currencies, horizons, risk capacity, affordable contributions and a review rule."
+  },
+  {
+   "title": "Check local implementation",
+   "body": "verify the provider, product, funding route, taxes, ownership, custody and exit conditions. Omit unavailable or unsuitable products."
+  },
+  {
+   "title": "Invest consistently where appropriate",
+   "body": "use a suitable mix of legally available assets, control costs, and avoid concentration and leverage that threaten essential goals."
+  },
+  {
+   "title": "Maintain the plan",
+   "body": "review progress, replenish reserves, update pension and succession records, and rebalance when justified by the plan and costs."
+  }
+ ],
+ "refs": {
+  "R019": {
+   "title": "Banking Laws",
+   "host": "www.cbe.org.eg",
+   "url": "https://www.cbe.org.eg/en/laws-regulations/laws/banking-laws"
+  },
+  "R022": {
+   "title": "Know Your Rights",
+   "host": "www.cbe.org.eg",
+   "url": "https://www.cbe.org.eg/en/consumer-protection/know-your-rights"
+  },
+  "R024": {
+   "title": "Submit a complaint",
+   "host": "www.cbe.org.eg",
+   "url": "https://www.cbe.org.eg/en/consumer-protection/submit-a-complaint"
+  },
+  "R032": {
+   "title": "An essential guide to building an emergency fund — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund"
+  },
+  "R035": {
+   "title": "Budgeting: How to create a budget and stick with it — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it"
+  },
+  "R036": {
+   "title": "Can I prepay my loan at any time without penalty? — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-prepay-my-loan-at-any-time-without-penalty-en-843"
+  },
+  "R049": {
+   "title": "Get your money situation in order — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order"
+  },
+  "R053": {
+   "title": "How does compound interest work? — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/ask-cfpb/how-does-compound-interest-work-en-1683"
+  },
+  "R054": {
+   "title": "How much can I afford to borrow for a car or auto loan? — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/ask-cfpb/how-much-can-i-afford-to-borrow-for-a-car-or-auto-loan-en-751"
+  },
+  "R055": {
+   "title": "How to reduce your debt — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/archive/blog/how-reduce-your-debt"
+  },
+  "R063": {
+   "title": "Set a goal, make a plan, and save automatically — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/archive/blog/set-a-goal-make-a-plan-and-save-automatically"
+  },
+  "R073": {
+   "title": "What is the difference between a loan interest rate and the APR? — Consumer Financial Protection Bureau",
+   "host": "www.consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733"
+  },
+  "R089": {
+   "title": "FDIC: Electronic Deposit Insurance Estimator (EDIE): FAQs",
+   "host": "edie.fdic.gov",
+   "url": "https://edie.fdic.gov/fdic_info.html"
+  },
+  "R091": {
+   "title": "E-commerce platform — مصلحة الضرائب المصرية",
+   "host": "www.eta.gov.eg",
+   "url": "https://www.eta.gov.eg/en/ecomSDK"
+  },
+  "R093": {
+   "title": "تذليل أى عقبات قد تواجه مزاولى أنشطة التجارة الإلكترونية — مصلحة الضرائب المصرية",
+   "host": "eta.gov.eg",
+   "url": "https://eta.gov.eg/en/node/771"
+  },
+  "R099": {
+   "title": "Risk and returns — FCA",
+   "host": "www.fca.org.uk",
+   "url": "https://www.fca.org.uk/investsmart/risk-returns"
+  },
+  "R127": {
+   "title": "Capital Market Incorporation and Licensing – الهيئة العامة للرقابة المالية",
+   "host": "fra.gov.eg",
+   "url": "https://fra.gov.eg/en/%D9%86%D9%85%D8%A7%D8%B0%D8%AC-%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D9%88%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D8%B3%D9%88%D9%82-%D8%A7"
+  },
+  "R130": {
+   "title": "FRA Issues Strong Warning on Illegal Promotion of Financial Products – Tuesday 6 May 2025 – الهيئة العامة للرقابة المالية",
+   "host": "fra.gov.eg",
+   "url": "https://fra.gov.eg/en/fra_news/%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D8%B7%D9%84%D9%82-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D8%A8%D8%B4%D8%A3%D9%86-%D9%85%D8%A7-%D8%AA%D9%85-2"
+  },
+  "R131": {
+   "title": "FRA Regulates Gold Investment Fund Certificates, Not Direct Gold Trading – Tuesday 6 May 2025 – الهيئة العامة للرقابة المالية",
+   "host": "fra.gov.eg",
+   "url": "https://fra.gov.eg/en/fra_news/%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A3%D9%86%D9%87%D8%A7-%D8%AA%D9%86%D8%B8%D9%85-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB"
+  },
+  "R132": {
+   "title": "How to invest in the Stock Exchange? – الهيئة العامة للرقابة المالية",
+   "host": "fra.gov.eg",
+   "url": "https://fra.gov.eg/en/ufaq/%D9%83%D9%8A%D9%81-%D8%AA%D8%B3%D8%AA%D8%AB%D9%85%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%B5%D8%A9%D8%9F"
+  },
+  "R134": {
+   "title": "Islamic Products and Contracts – الهيئة العامة للرقابة المالية",
+   "host": "fra.gov.eg",
+   "url": "https://fra.gov.eg/en/%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D9%84%D8%A3%D9%86%D8%B4%D8%B7%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%BA"
+  },
+  "R135": {
+   "title": "Just because a security is rising quickly does not mean it is the best investment for you. – الهيئة العامة للرقابة المالية",
+   "host": "fra.gov.eg",
+   "url": "https://fra.gov.eg/en/ufaq/%D8%AA%D8%B1%D9%83%D9%8A%D8%B2-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-%D9%81%D9%8A-%D9%88%D8%B1%D9%82%D8%A9-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%B3%D8%B9"
+  },
+  "R136": {
+   "title": "Sukuk – الهيئة العامة للرقابة المالية",
+   "host": "fra.gov.eg",
+   "url": "https://fra.gov.eg/en/%D8%A7%D9%84%D8%B5%D9%83%D9%88%D9%83"
+  },
+  "R142": {
+   "title": "Investment Law No. 72 of 2017",
+   "host": "www.gafi.gov.eg",
+   "url": "https://www.gafi.gov.eg/English/StartaBusiness/Laws-and-Regulations/PublishingImages/Pages/BusinessLaws/Investment%20Law.pdf"
+  },
+  "R145": {
+   "title": "Anchoring effect: How meaningless information can affect your financial decisions — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/psychology-of-investing/the-powerful-impact-anchoring-has-on-your-decisions"
+  },
+  "R147": {
+   "title": "Behavioural insights: How to counteract your biases to make better decisions — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/psychology-of-investing/understanding-behavioural-science-and-how-it-can-help-you-make-better-financial-decisions"
+  },
+  "R149": {
+   "title": "Beyond the posts: How to evaluate investing information found on social media — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/getting-started/investing-using-information-found-on-social-media"
+  },
+  "R161": {
+   "title": "How inflation affects your investments — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/understanding-risk/inflation-your-investments"
+  },
+  "R163": {
+   "title": "How overconfidence bias may affect your financial decisions — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/psychology-of-investing/overconfidence"
+  },
+  "R168": {
+   "title": "How to check your investing accounts — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/tracking-your-progress/how-to-check-your-investing-accounts"
+  },
+  "R169": {
+   "title": "How to create a balanced budget — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/budgeting/create-a-balanced-budget"
+  },
+  "R172": {
+   "title": "How to make an investment policy statement — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/building-your-investing-strategy/how-to-make-an-investment-policy-statement"
+  },
+  "R175": {
+   "title": "Investing for growth, income or both — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/building-your-investing-strategy/investing-for-growth-income-or-both"
+  },
+  "R180": {
+   "title": "Mutual fund fees — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/learning-path/mutual-funds-segregated-funds/mutual-fund-fees"
+  },
+  "R184": {
+   "title": "Psychology of Investing — GetSmarterAboutMoney.ca",
+   "host": "www.getsmarteraboutmoney.ca",
+   "url": "https://www.getsmarteraboutmoney.ca/topics/psychology-of-investing"
+  },
+  "R196": {
+   "title": "Lifelong learning and skills for the future",
+   "host": "www.ilo.org",
+   "url": "https://www.ilo.org/publications/flagship-reports/lifelong-learning-and-skills-future"
+  },
+  "R202": {
+   "title": "Legal forms of company incorporation",
+   "host": "www.investinegypt.gov.eg",
+   "url": "https://www.investinegypt.gov.eg/English/Pages/WhyEgyptDetails.aspx?categoryid=30"
+  },
+  "R212": {
+   "title": "Ask and Check — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/ask-and-check"
+  },
+  "R213": {
+   "title": "Asset Allocation and Diversification — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+  },
+  "R217": {
+   "title": "Bonds - FAQs — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+  },
+  "R228": {
+   "title": "Dividend — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dividend"
+  },
+  "R229": {
+   "title": "Dollar Cost Averaging — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging"
+  },
+  "R233": {
+   "title": "Exchange-Traded Funds (ETFs) — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-2"
+  },
+  "R236": {
+   "title": "Five Questions to Ask Before You Invest — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/getting-started/five-questions-ask-you-invest"
+  },
+  "R243": {
+   "title": "Gauge Your Risk Tolerance — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/gauge-your-risk-tolerance"
+  },
+  "R250": {
+   "title": "Index Funds — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-4"
+  },
+  "R251": {
+   "title": "International Investing — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/international-investing"
+  },
+  "R256": {
+   "title": "Investor Bulletin:  How Fees and Expenses Affect Your Investment Portfolio",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/sites/default/files/ib_fees_expenses.pdf"
+  },
+  "R259": {
+   "title": "Investor Bulletin: Custody of Your Investment Assets — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-73"
+  },
+  "R263": {
+   "title": "Investor Bulletin: Non-traded REITs — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-89"
+  },
+  "R268": {
+   "title": "Is It Time to Rebalance Your Investment Portfolio? — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/additional-resources/spotlight/formerdirectorlorischock-directors-take/it-time-rebalance-your-investment-portfolio"
+  },
+  "R270": {
+   "title": "Liquidity (or Marketability) — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/liquidity-or-marketability"
+  },
+  "R273": {
+   "title": "Money Market Funds: Investor Bulletin — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-12"
+  },
+  "R274": {
+   "title": "Mutual Fund and ETF Fees and Expenses — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mutual-fund-fees-and-expenses"
+  },
+  "R276": {
+   "title": "MUTUAL FUNDS and ETFS",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/sites/investorgov/files/2023-09/mutual-funds-ETFs_2_0.pdf"
+  },
+  "R278": {
+   "title": "No-Expense or Zero-Expense Funds — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/no-expense-or-zero-expense-funds"
+  },
+  "R294": {
+   "title": "Red Flags of Investment Fraud Checklist — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/protect-your-investments/fraud/how-avoid-fraud/red-flags-investment-fraud-checklist"
+  },
+  "R304": {
+   "title": "Stocks - FAQs — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+  },
+  "R306": {
+   "title": "The Laws That Govern the Securities Industry — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/role-sec/laws-govern-securities-industry"
+  },
+  "R308": {
+   "title": "Time Horizon — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/time-horizon"
+  },
+  "R314": {
+   "title": "What Are Corporate Bonds? — Investor.gov",
+   "host": "www.investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are"
+  },
+  "R327": {
+   "title": "Commercial Registry Procedural Guide - ITDA",
+   "host": "itda.gov.eg",
+   "url": "https://itda.gov.eg/en/Workguide-en.html"
+  },
+  "R331": {
+   "title": "Break-even point — U.S. Small Business Administration",
+   "host": "legacy.sba.gov",
+   "url": "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
+  },
+  "R333": {
+   "title": "Calculate your startup costs — U.S. Small Business Administration",
+   "host": "legacy.sba.gov",
+   "url": "https://legacy.sba.gov/es/guia-de-negocios/planifique-su-empresa/calcule-sus-costos-de-lanzamiento"
+  },
+  "R334": {
+   "title": "Fund your business — U.S. Small Business Administration",
+   "host": "legacy.sba.gov",
+   "url": "https://legacy.sba.gov/business-guide/plan-your-business/fund-your-business"
+  },
+  "R337": {
+   "title": "Manage your finances — U.S. Small Business Administration",
+   "host": "legacy.sba.gov",
+   "url": "https://legacy.sba.gov/es/guia-de-negocios/administre-su-empresa/administre-sus-finanzas"
+  },
+  "R338": {
+   "title": "Market research and competitive analysis — U.S. Small Business Administration",
+   "host": "legacy.sba.gov",
+   "url": "https://legacy.sba.gov/es/guia-de-negocios/planifique-su-empresa/investigacion-de-mercado-y-analisis-competitivo"
+  },
+  "R339": {
+   "title": "Write your business plan — U.S. Small Business Administration",
+   "host": "legacy.sba.gov",
+   "url": "https://legacy.sba.gov/business-guide/plan-your-business/write-your-business-plan"
+  },
+  "R350": {
+   "title": "How to budget for an irregular income — MoneyHelper",
+   "host": "www.moneyhelper.org.uk",
+   "url": "https://www.moneyhelper.org.uk/en/everyday-money/budgeting/how-to-budget-for-an-irregular-income"
+  },
+  "R361": {
+   "title": "Managing your money using savings pots — MoneyHelper",
+   "host": "www.moneyhelper.org.uk",
+   "url": "https://www.moneyhelper.org.uk/en/everyday-money/budgeting/managing-your-money-using-the-jam-jar-approach?source=mas"
+  },
+  "R362": {
+   "title": "Managing your money — MoneyHelper",
+   "host": "www.moneyhelper.org.uk",
+   "url": "https://www.moneyhelper.org.uk/en/everyday-money/budgeting/beginners-guide-to-managing-your-money"
+  },
+  "R372": {
+   "title": "Understanding mortgages and interest rates — MoneyHelper",
+   "host": "www.moneyhelper.org.uk",
+   "url": "https://www.moneyhelper.org.uk/en/homes/buying-a-home/mortgage-interest-rate-options"
+  },
+  "R380": {
+   "title": "What is life insurance? — MoneyHelper",
+   "host": "www.moneyhelper.org.uk",
+   "url": "https://www.moneyhelper.org.uk/en/everyday-money/insurance/what-is-life-insurance"
+  },
+  "R390": {
+   "title": "Insurance basics — MoneySense",
+   "host": "www.moneysense.gov.sg",
+   "url": "https://www.moneysense.gov.sg/insurance-basics"
+  },
+  "R397": {
+   "title": "Planning for retirement — MoneySense",
+   "host": "www.moneysense.gov.sg",
+   "url": "https://www.moneysense.gov.sg/legacy-planning/planning-for-retirement"
+  },
+  "R399": {
+   "title": "Setting financial goals at every life stage — MoneySense",
+   "host": "www.moneysense.gov.sg",
+   "url": "https://www.moneysense.gov.sg/investments/financial-goals"
+  },
+  "R401": {
+   "title": "Understanding estate planning — MoneySense",
+   "host": "www.moneysense.gov.sg",
+   "url": "https://www.moneysense.gov.sg/understanding-estate-planning"
+  },
+  "R404": {
+   "title": "Using AI for your finances: What you need to know — MoneySense",
+   "host": "www.moneysense.gov.sg",
+   "url": "https://www.moneysense.gov.sg/investments/using-ai-for-finances"
+  },
+  "R424": {
+   "title": "Debt consolidation and refinancing - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/managing-debt/debt-consolidation-and-refinancing"
+  },
+  "R425": {
+   "title": "Develop an investing plan - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/how-to-invest/develop-an-investing-plan"
+  },
+  "R427": {
+   "title": "Financial hardship - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/managing-debt/financial-hardship"
+  },
+  "R429": {
+   "title": "Get debt under control - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/managing-debt/get-debt-under-control"
+  },
+  "R434": {
+   "title": "How to start saving - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/saving/how-to-start-saving"
+  },
+  "R436": {
+   "title": "Income protection insurance - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/how-life-insurance-works/income-protection-insurance"
+  },
+  "R439": {
+   "title": "Investment diversification - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/how-to-invest/investment-diversification"
+  },
+  "R448": {
+   "title": "Make your money last in retirement - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/manage-your-money-in-retirement/make-your-money-last-in-retirement"
+  },
+  "R461": {
+   "title": "Ponzi schemes - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/financial-scams/ponzi-schemes"
+  },
+  "R462": {
+   "title": "Property investment - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/PROPERTY-INVESTMENT"
+  },
+  "R472": {
+   "title": "Savings accounts - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/banking/savings-accounts"
+  },
+  "R475": {
+   "title": "Simple ways to save money - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/saving/simple-ways-to-save-money"
+  },
+  "R476": {
+   "title": "Steps to get your money sorted - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/budgeting/steps-to-get-your-money-sorted"
+  },
+  "R480": {
+   "title": "Term deposits - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/investments-paying-interest/term-deposits"
+  },
+  "R485": {
+   "title": "Work out how much you need to retire - Moneysmart.gov.au",
+   "host": "moneysmart.gov.au",
+   "url": "https://moneysmart.gov.au/plan-for-your-retirement/work-out-how-much-you-need-to-retire"
+  },
+  "R488": {
+   "title": "الأسئلة الشائعة",
+   "host": "www.nosi.gov.eg",
+   "url": "https://www.nosi.gov.eg/ar/About/Pages/FAQ.aspx?_x_tr_pto=op%2Cwapp&_x_tr_sl=ar&_x_tr_tl=en"
+  },
+  "R489": {
+   "title": "العمالة الغير منتظمة",
+   "host": "www.nosi.gov.eg",
+   "url": "https://www.nosi.gov.eg/ar/Services/Pages/Info/Informalemployment.aspx"
+  },
+  "R491": {
+   "title": "Financial education — OECD",
+   "host": "www.oecd.org",
+   "url": "https://www.oecd.org/en/topics/financial-education.html"
+  },
+  "R496": {
+   "title": "على مزاولى نشاط التجارة الإلكترونية من خلال بيع وشراء المنتجات والخدمات وصناع المحتوى بسرعة التسجيل  بمصلحة الضرائب المصرية — مصلحة الضرائب المصرية",
+   "host": "portal.eta.gov.eg",
+   "url": "https://portal.eta.gov.eg/en/node/277"
+  },
+  "R515": {
+   "title": "10: Insurance",
+   "host": "static.moneysmart.gov.au",
+   "url": "https://static.moneysmart.gov.au/files/money-management-kit/kit-topic-insurance.pdf"
+  },
+  "R527": {
+   "title": "Be Alert to Signs of Imposter Investment Scams — Syndication",
+   "host": "syndication.finra.org",
+   "url": "https://syndication.finra.org/content/be-alert-signs-imposter-investment-scams"
+  },
+  "R528": {
+   "title": "Be Wary of Pressure to Transfer Funds From Your Brokerage Account — Syndication",
+   "host": "syndication.finra.org",
+   "url": "https://syndication.finra.org/content/be-wary-pressure-transfer-funds-your-brokerage-account"
+  },
+  "R532": {
+   "title": "Customer Account Takeovers: What They Are and How to Protect Yourself — Syndication",
+   "host": "syndication.finra.org",
+   "url": "https://syndication.finra.org/content/customer-account-takeovers-what-they-are-and-how-protect-yourself"
+  },
+  "R534": {
+   "title": "Duration—What an Interest Rate Hike Could Do to Your Bond Portfolio — Syndication",
+   "host": "syndication.finra.org",
+   "url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio"
+  },
+  "R535": {
+   "title": "Following the Crowd: Investing and Social Media — Syndication",
+   "host": "syndication.finra.org",
+   "url": "https://syndication.finra.org/content/following-crowd-investing-and-social-media"
+  },
+  "R544": {
+   "title": "Keep the Harmony Alive: Discussing Money and Investing With Your Partner — Syndication",
+   "host": "syndication.finra.org",
+   "url": "https://syndication.finra.org/content/keep-harmony-alive-discussing-money-and-investing-your-partner"
+  },
+  "R548": {
+   "title": "Margin Debt at Record Levels: Know the Risks — Syndication",
+   "host": "syndication.finra.org",
+   "url": "https://syndication.finra.org/content/margin-debt-record-levels-know-risks"
+  },
+  "R553": {
+   "title": "Tips for Managing a Financial Windfall — Syndication",
+   "host": "syndication.finra.org",
+   "url": "https://syndication.finra.org/content/tips-managing-financial-windfall"
+  }
+ }
+}

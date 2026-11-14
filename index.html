@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Thara in a browser: the same app as the phone's, built with
+    tool\build-web.ps1 (which fills in /thara-web/ and
+    https://thara-gateway.thara-app.workers.dev wss://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://latest.currency-api.pages.dev https://dvahasan.github.io below). See docs/web/WEB_PORT.md.
+  -->
+  <base href="/thara-web/">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!--
+    What this page may load and whom it may talk to. Scripts, styles, fonts
+    and pictures come from the page's own address only: nothing is fetched
+    from any other site, so no other site's code ever runs beside the wallet.
+    The page talks to Thara's gateway (the account, the wallet, Thara AI),
+    to the live talk's voice service with the single-use token the gateway
+    hands out, and to the public exchange-rate lists the phone app reads
+    too. 'wasm-unsafe-eval' lets the browser run the two WebAssembly parts
+    shipped beside the page (the drawing engine and SQLite); it does not
+    allow eval.
+  -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'wasm-unsafe-eval';
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' data: blob:;
+    font-src 'self' data:;
+    media-src 'self' data: blob:;
+    worker-src 'self' blob:;
+    connect-src 'self' data: blob: https://thara-gateway.thara-app.workers.dev wss://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://latest.currency-api.pages.dev https://dvahasan.github.io;
+    frame-src 'none';
+    object-src 'none';
+    base-uri 'self';
+    form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+
+  <title>Thara</title>
+  <meta name="description" content="Thara: a clear record of your money. Records, sources, plans and goals, in Arabic and English, kept in your Thara account.">
+  <meta name="application-name" content="Thara">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#242037">
+  <!-- The wallet is nobody's to index. -->
+  <meta name="robots" content="noindex, nofollow">
+  <!-- Amounts and names are not for a translator to rewrite. -->
+  <meta name="google" content="notranslate">
+
+  <!-- Opened from a phone's home screen. -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Thara">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* The page while the app is being fetched: Thara's own colours, so the
+       first thing seen is not a white flash. Taken away at the app's first
+       frame (splash.js). */
+    :root { --paper: #f8f6ef; --ink: #242037; --text: #262137; --muted: #655f72; --lime: #dff375; }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #211b30; --text: #f8efff; --muted: #c5b8d4; }
+    }
+    html, body { height: 100%; margin: 0; background: var(--paper); }
+    body { overflow: hidden; overscroll-behavior: none; }
+    #thara-splash {
+      position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column;
+      background: var(--paper); color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Arabic", sans-serif;
+      transition: opacity .24s ease;
+    }
+    #thara-splash.gone { opacity: 0; pointer-events: none; }
+    #thara-splash .bar { height: 56px; flex: none; background: var(--ink); padding-top: env(safe-area-inset-top); }
+    #thara-splash .middle { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 24px; }
+    #thara-splash .mark { width: 76px; height: 76px; border-radius: 20px; background: var(--ink); display: grid; place-items: center; }
+    #thara-splash .name { font-size: 28px; font-weight: 800; letter-spacing: -.02em; }
+    #thara-splash .line { width: 132px; height: 3px; border-radius: 3px; background: color-mix(in srgb, var(--muted) 28%, transparent); overflow: hidden; }
+    #thara-splash .line i { display: block; width: 40%; height: 100%; border-radius: 3px; background: var(--ink); animation: thara-run 1.15s ease-in-out infinite alternate; }
+    @media (prefers-color-scheme: dark) { #thara-splash .line i { background: var(--lime); } }
+    @media (prefers-reduced-motion: reduce) { #thara-splash .line i { animation: none; width: 100%; opacity: .5; } }
+    @keyframes thara-run { from { transform: translateX(-20%); } to { transform: translateX(170%); } }
+    #thara-splash .late, #thara-splash noscript { max-width: 30em; text-align: center; font-size: 14px; line-height: 1.6; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div id="thara-splash" role="status" aria-label="Thara">
+    <div class="bar"></div>
+    <div class="middle">
+      <div class="mark" aria-hidden="true">
+        <svg width="56" height="56" viewBox="22 22 64 64">
+          <rect x="22.9" y="78.2" width="58" height="4.8" rx="2.4" fill="#f8f6ef" opacity=".45"/>
+          <circle cx="30.1" cy="62.5" r="7.85" fill="#f8f6ef"/>
+          <circle cx="51.9" cy="50.4" r="9.06" fill="#f8f6ef"/>
+          <circle cx="74.8" cy="35.9" r="10.88" fill="#dff375"/>
+        </svg>
+      </div>
+      <div class="name">Thara.</div>
+      <div class="line" aria-hidden="true"><i></i></div>
+      <div class="late" id="thara-late" hidden>
+        Taking a while? Check the connection, then reload the page.<br>
+        <span lang="ar" dir="rtl">يطول الفتح؟ تأكد من الاتصال، ثم أعد تحميل الصفحة.</span>
+      </div>
+      <noscript>
+        Thara needs JavaScript to run in a browser.<br>
+        <span lang="ar" dir="rtl">يحتاج ثراء إلى جافاسكربت ليعمل في المتصفح.</span>
+      </noscript>
+    </div>
+  </div>
+
+  <script src="before-start.js"></script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
