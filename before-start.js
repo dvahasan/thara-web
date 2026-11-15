@@ -18,15 +18,21 @@
     return;
   }
 
-  // Back from Google's own sign-in page (Continue with Google): what Google
-  // answered is in the address, after the '#'. It is put aside for the app
-  // to read once, for this tab only, and taken out of the address at once,
-  // so it is neither kept in the browser's history nor taken for a place
-  // in the app.
+  // Back from Google's own sign-in page: what Google answered is in the
+  // address, after the '#'. It is put aside for the app to read once, for
+  // this tab only, and taken out of the address at once, so it is neither
+  // kept in the browser's history nor taken for a place in the app.
+  // Two questions are asked of Google that way, told apart by the word the
+  // app sent with each: "Continue with Google" (who the person is), and
+  // reading the backups the phone app keeps in Google Drive (a pass to
+  // Thara's own hidden folder there).
   var answer = window.location.hash ? window.location.hash.slice(1) : '';
-  if (/(^|&)state=thara-/.test(answer) && /(^|&)(id_token|error)=/.test(answer)) {
+  var forDrive = /(^|&)state=thara-drive-/.test(answer);
+  var ours = /(^|&)state=thara-/.test(answer) &&
+      (forDrive ? /(^|&)(access_token|error)=/ : /(^|&)(id_token|error)=/).test(answer);
+  if (ours) {
     try {
-      window.sessionStorage.setItem('thara-google-answer', answer);
+      window.sessionStorage.setItem(forDrive ? 'thara-drive-answer' : 'thara-google-answer', answer);
     } catch (_) {
       // No storage for this tab: the sign-in simply did not happen.
     }

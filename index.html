@@ -4,7 +4,7 @@
   <!--
     Thara in a browser: the same app as the phone's, built with
     tool\build-web.ps1 (which fills in /thara-web/ and
-    https://thara-gateway.thara-app.workers.dev wss://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://latest.currency-api.pages.dev https://dvahasan.github.io below). See docs/web/WEB_PORT.md.
+    https://thara-gateway.thara-app.workers.dev wss://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://latest.currency-api.pages.dev https://dvahasan.github.io https://www.googleapis.com below). See docs/web/WEB_PORT.md.
   -->
   <base href="/thara-web/">
 
@@ -30,7 +30,7 @@
     font-src 'self' data:;
     media-src 'self' data: blob:;
     worker-src 'self' blob:;
-    connect-src 'self' data: blob: https://thara-gateway.thara-app.workers.dev wss://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://latest.currency-api.pages.dev https://dvahasan.github.io;
+    connect-src 'self' data: blob: https://thara-gateway.thara-app.workers.dev wss://generativelanguage.googleapis.com https://cdn.jsdelivr.net https://latest.currency-api.pages.dev https://dvahasan.github.io https://www.googleapis.com;
     frame-src 'none';
     object-src 'none';
     base-uri 'self';
